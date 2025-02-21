@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <!-- Color cuando el botón está presionado (rojo más oscuro) -->
+        <shape android:shape="oval">
+            <solid android:color="#D32F2F" />  <!-- Un tono de rojo más oscuro para el estado presionado -->
+        </shape>
+    </item>
+    <item>
+        <!-- Color normal del botón (rojo normal) -->
+        <shape android:shape="oval">
+            <solid android:color="#F44336" />  <!-- Un tono de rojo normal -->
+        </shape>
+    </item>
+</selector>
